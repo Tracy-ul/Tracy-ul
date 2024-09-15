@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    overflow: hidden;
+    background: transparent;
+    /* background-color: rgb(203, 232, 232); */
+    padding: 20px 10px;
+    position: sticky;
+}
+.nav a{
+color:white;
+width: 1200px;
+height: 50px;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+text-decoration: none;
+margin-left: 30px;
+}
+.nav a:hover{
+    color:black;
+    background-color: rgb(193, 193, 79);;
+}
+.nav a.active{
+    color: rgb(193, 193, 79);
+}
+.nav_right{
+    float: right;
+}  
+.mylogo h6{
+    font-size: large;
+    float: left;
+    color: rgb(143, 51, 51);
+}
+.mr_kay{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../Images/collegestudents.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.message{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%)(-50);
+    text-align: center;
+    color: white;
+ }
+ .message h1{
+    font-size: 70px;
+    margin-top: 5px;
+ }
+ .message p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+ }
+ button{
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 1px;
+    font-weight: bold;
+    border: 2px solid rgb(193, 193, 79);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ button:hover{
+    background-color: rgb(193, 193, 79);
+    color: white;
+ }
+ .nav1{
+    overflow: hidden;
+    background: transparent;
+    background-color:cornflowerblue;
+    padding: 20px 10px;
+    position: sticky;
+ }
+ .nav1 a{
+    color:white;
+    width: 1200px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30px;
+    }
+    .nav1 a:hover{
+        color:white;
+        background-color: rgb(193, 193, 79);;
+    }
+    .nav1 a.active{
+        color: rgb(193, 193, 79);
+    }
+    .nav1_right{
+        float: right;
+    }
+    .img{
+            width: 30%;
+            float: left;
+    }
+    main{
+        display: grid;
+        justify-content: center;
+        align-content: end;
+        min-height: 100vh;
+        background: rgb(228, 217, 200);
+        padding: 50px;
+    }
+    footer{
+        position: relative;
+        width: auto;
+        height:185x;
+        padding: 50px 100px;
+        background: rgb(242, 242, 238);
+    }
+    footer .can{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+    footer .can.sec h2{
+        position: relative;
+        color: black;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    footer.can.sec p{ 
+        color: black;
+    }
+    footer .can .sci{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:repeat(4,50px);
+    }
+    footer .can .sci li{
+        list-style: none;
+    }
+    footer .can .sci li a{
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        background: black;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    footer .can .sci li a i{
+        color: white;
+        font-size: 20px;
+    }
+    footer .sec.tracy{
+        position: relative;
+    }
+    footer .sec.tracy ul li{
+    list-style: none;
+    }
+    footer .sec.tracy ul li a{
+        color: black;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    .copyrighttext{
+        width: 100%;
+        background: rgb(226, 120, 120);
+        padding: 20px 100px 30px;
+        text-align: center;
+        color:black;
+        border: 1px solid rgba(0, 0, 0, 15);
+    }
+   .wear{
+    text-align: center;
+   }
+        .itel{
+            color: black;
+            font-weight: 400;
+            font-size: larger;
+            text-align: center;
+        }
+            .phone{
+                color: black;
+                font-size: 45px;
+                margin-top: 10px;
+                text-align: center;
+        }
+        .row{
+            padding-top: 50px;
+            width: 1000px;
+            margin: auto;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            text-align: center;
+        }
+        .biro{
+            width: 300px;
+            height: 400px;
+            /* background: rgb(248, 240, 240); */
+            border-radius: 1px;
+            margin-bottom: 25px;
+            /* border: 2px solid black; */
+        }
+        .biro h3{
+            font-size: 25px;
+            padding-top: 20px;
+            color: black;
+        }
+        .biro p{
+            color: black;
+            margin-top: 20px;
+            line-height: 25px;
+        }
+        .wrapper{
+            width: 100%;
+            min-height: 100vh;
+            overflow: hidden;
+            background-color:beige;
+        }
+        .rolls{
+            width: 100%;
+            padding: 50px 100px;
+        }
+        .image-section{
+            width: 30%;
+            float: left;
+        }
+        .image-section img{
+            width: 100%;
+            height: 700px;
+        }
+        .school{
+            width: 60%;
+            float: left;
+            margin-left: 50px;
+        }
+        .school h1{
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(143, 51, 51);
+            margin-top: 25px;
+        }
+        .school h2{
+            font-size: 35px;
+            letter-spacing: 3.5px;
+            margin-top: 25px;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .school p{
+            font-size: 20px;
+            font-family: serif;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+        .trophy{
+            padding-top: 50px;
+            width: 750px;
+            margin: auto;
+            justify-content: space-between;
+            align-items: left;
+            display: flex;
+            text-align: center;
+        }
+        .trophy1{
+            width: 220px;
+            height: 150px;
+            background: white;
+            border-radius: 1px;
+            border: 1px solid black;
+        }
+        .trophy1 img{
+                width: 100px;
+                height: 100px;
+                border-radius: 1px;
+        }
+    
+    
